@@ -8,6 +8,14 @@
 | :---: | :---: | :---: |
 | ![推理强度卡片](docs/preview-light.png) | ![Ultra 的紫色扫描与极光](docs/preview-ultra.png) | ![按提供方分组的模型列表](docs/preview-models.png) |
 
+### 档位随能量递进：颜色 + 星尘
+
+滑条的颜色与流动星尘都随档位连续变化 —— 左端恒蓝，越往右越紫、星尘越密。
+
+| Low（蓝 · 弱星尘） | Max（紫 · 星尘满） |
+| :---: | :---: |
+| ![Low 档：蓝色滑条与稀疏星尘](docs/preview-low-starfield.png) | ![Max 档：紫色滑条与密集星尘，闪电开关亮起](docs/preview-max-starfield.png) |
+
 **License MIT · 平台 `dsh web` · 零构建 · 零 Node 依赖**
 
 ---
@@ -38,11 +46,20 @@
 
 ## 安装
 
+### 从 npm 安装（推荐）
+
 ```sh
+dsh plugin --profile web add dsh-codex-excellent-slider
+# 然后重启 dsh web
+```
+
+### 本地开发 / 自行修改
+
+```sh
+git clone https://github.com/karina2256/dsh-codex-excellent-slider.git
 dsh plugin --profile web add link:C:\path\to\dsh-codex-excellent-slider
 ```
 
-本地开发也可以把包名换成绝对路径的 `link:` 形式。
 这是第三方客户端插件，复刻的是 Codex 桌面应用的交互与材质，**与官方无关**，也不提供模型服务。
 
 ## 能做什么

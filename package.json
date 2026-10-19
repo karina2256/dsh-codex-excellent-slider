@@ -34,8 +34,10 @@
     }
   },
   "files": [
-    "lib",
-    "docs",
+    "lib/index.js",
+    "lib/client.js",
+    "docs/preview-low-starfield.png",
+    "docs/preview-max-starfield.png",
     "cordis.patch.yml",
     "README.md",
     "PROVENANCE.md",
