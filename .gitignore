@@ -1,0 +1,21 @@
+# 构建产物 / 依赖
+node_modules/
+dist/
+*.log
+
+# 本地预览与截图（harness 产物）
+preview/
+out/
+*.png
+!docs/*.png
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 本地备份（不提交）
+*.orig
+*.merge-backup-*
+*.bak

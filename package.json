@@ -1,0 +1,46 @@
+{
+  "name": "dsh-codex-excellent-slider",
+  "version": "0.2.0",
+  "description": "DSH Web 客户端的 Codex 风格「思考强度」滑条：power-slider 的卡片 UI（模型列表 + 强度滑杆）+ effort-slider 的连续动效（动态色板、流动星尘、跟手拖动）。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "reasoning",
+    "thinking",
+    "effort",
+    "codex",
+    "power-slider",
+    "effort-slider"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "files": [
+    "lib",
+    "docs",
+    "cordis.patch.yml",
+    "README.md",
+    "PROVENANCE.md",
+    "PITFALLS.md",
+    "LICENSE"
+  ],
+  "license": "MIT"
+}
