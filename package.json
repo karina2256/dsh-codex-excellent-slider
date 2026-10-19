@@ -42,5 +42,18 @@
     "PITFALLS.md",
     "LICENSE"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karina2256/dsh-codex-excellent-slider.git"
+  },
+  "homepage": "https://github.com/karina2256/dsh-codex-excellent-slider#readme",
+  "bugs": {
+    "url": "https://github.com/karina2256/dsh-codex-excellent-slider/issues"
+  },
+  "author": "karina2256",
+  "contributors": [
+    "NNNOOOMII (dsh-codex-power-slider)",
+    "Microqian2th (dsh-codex-effort-slider)"
+  ],
   "license": "MIT"
 }
